@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BankGuru]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://demo.guru99.com/v4/"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig1.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bankguru.payment.Payment_01_Creat_and_Check">
+        <methods>
+          <include name="afterClass"/>
+          <include name="payment_02_edit_customer_account" invocation-numbers="0"/>
+          <include name="payment_04_edit_account" invocation-numbers="0"/>
+          <include name="payment_01_creat_new_customer_account" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="payment_06_withdrawal_money"/>
+          <include name="payment_10_delete_customer"/>
+          <include name="deleteFileInReport"/>
+          <include name="payment_03_new_account" invocation-numbers="0"/>
+          <include name="payment_09_delete_account"/>
+          <include name="payment_05_tranfer_money" invocation-numbers="0"/>
+          <include name="payment_08_balance"/>
+          <include name="payment_07_fund_transfer"/>
+        </methods>
+      </class> <!-- com.bankguru.payment.Payment_01_Creat_and_Check -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [BankGuru] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.bankguru.payment.Payment_01_Creat_and_Check">
+        <methods>
+          <include name="afterClass"/>
+          <include name="payment_02_edit_customer_account"/>
+          <include name="payment_04_edit_account"/>
+          <include name="payment_01_creat_new_customer_account"/>
+          <include name="payment_06_withdrawal_money"/>
+          <include name="beforeClass"/>
+          <include name="payment_10_delete_customer"/>
+          <include name="deleteFileInReport"/>
+          <include name="payment_03_new_account"/>
+          <include name="payment_09_delete_account"/>
+          <include name="payment_05_tranfer_money"/>
+          <include name="payment_08_balance"/>
+          <include name="payment_07_fund_transfer"/>
+        </methods>
+      </class> <!-- com.bankguru.payment.Payment_01_Creat_and_Check -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

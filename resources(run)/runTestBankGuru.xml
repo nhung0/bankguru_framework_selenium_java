@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite parallel="none" name="BankGuru">
+
+
+	<listeners>
+		
+		<listener class-name="commons.MethodListener"/>
+		<listener class-name="reportConfig1.ExtentTestListener"/>
+	</listeners>
+	
+	<parameter name="url" value="https://demo.guru99.com/v4/" />
+	<test name="Run on Chrome" preserve-order="true" >
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.bankguru.payment.Payment_01_Creat_and_Check" />
+			
+		</classes>
+
+	</test>
+
+
+	
+	<!--<parameter name="url" value="https://demo.guru99.com/v4/" />
+	<test name="Run on Firefox" preserve-order="true" >
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.bankguru.payment.Payment_01_Creat_and_Check" />
+		</classes>
+
+	</test>-->
+	
+	
+<!--<parameter name="url" value="https://demo.guru99.com/v4/" />
+	<test name="Run on Edge" preserve-order="true" >
+		<parameter name="browser" val	ue="edge" />
+		<classes>
+			<class name="com.bankguru.payment.Payment_01_Creat_and_Check" />
+			
+			
+		</classes>
+
+	</test>-->
+
+
+
+
+
+</suite> 

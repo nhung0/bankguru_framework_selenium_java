@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="67.158">
+  <properties />
+  
+  
+            <testcase name="payment_06_withdrawal_money" time="5.605" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_01_creat_new_customer_account" time="17.576" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_07_fund_transfer" time="5.485" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_03_new_account" time="13.782" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_02_edit_customer_account" time="9.857" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_08_balance" time="1.996" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_09_delete_account" time="4.517" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_05_tranfer_money" time="2.566" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_04_edit_account" time="2.749" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+                <testcase name="payment_10_delete_customer" time="3.025" classname="com.bankguru.payment.Payment_01_Creat_and_Check" />
+      
+</testsuite>
